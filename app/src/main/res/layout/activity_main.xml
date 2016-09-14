@@ -1,0 +1,29 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:weightSum="1">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Start emotion battle!!!!!!"
+            android:id="@+id/button_recognize"
+            android:layout_gravity="center_horizontal"
+            android:onClick="activityRecognize" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Emotion Battle ver.2.1,\n\nv2.1 : 再次加強防呆防笨防蠢防低能防智障的預防機制，\n(這樣也能玩壞我只能跪你智商了ˊ_>ˋ) \nv2.0 : 新增可以更換題目的按鍵，設置於右上角\nv1.2 : 為了防止你們都壞壞都在那邊亂按ˊ_>ˋ，不該按的按鍵現在都禁止你們按\nv1.1 : 新增防呆防笨防蠢防低能防智障的預防機制\nv1.0 : 修正剩下所有bug\nv0.2 : 新增：比的表情不再只有笑臉\nv0.1 : 修正部分bug\nv0.0 : 未完成的版本預先發行!\n\n感謝 Microsoft 提供了 cognitive service. XD"/>
+
+    </LinearLayout>
+
+</RelativeLayout>
